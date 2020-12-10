@@ -10,6 +10,7 @@
 		0A16DC03ED79539270AA4245 /* Pods_CurrencyAPI_CurrencyAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4CEA660F4E6CA8A6D21A40 /* Pods_CurrencyAPI_CurrencyAPIUITests.framework */; };
 		0BCB65CA0F35C8FC2533A170 /* Pods_CurrencyAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F15C13D1220118D7E115B7 /* Pods_CurrencyAPITests.framework */; };
 		1C62FCD5CE0DD3959BF23911 /* Pods_CurrencyAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9491E9513F728B1B3272177F /* Pods_CurrencyAPI.framework */; };
+		3E653C1D2581E94E00474CBC /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E653C1C2581E94E00474CBC /* NewFile.swift */; };
 		3E8B3EBC257DF04F009413B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B3EBB257DF04F009413B2 /* AppDelegate.swift */; };
 		3E8B3EBE257DF04F009413B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B3EBD257DF04F009413B2 /* SceneDelegate.swift */; };
 		3E8B3EC0257DF04F009413B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B3EBF257DF04F009413B2 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E653C1C2581E94E00474CBC /* NewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFile.swift; sourceTree = "<group>"; };
 		3E8B3EB8257DF04F009413B2 /* CurrencyAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B3EBB257DF04F009413B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8B3EBD257DF04F009413B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3E8B3EC4257DF050009413B2 /* Assets.xcassets */,
 				3E8B3EC6257DF050009413B2 /* LaunchScreen.storyboard */,
 				3E8B3EC9257DF050009413B2 /* Info.plist */,
+				3E653C1C2581E94E00474CBC /* NewFile.swift */,
 			);
 			path = CurrencyAPI;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			files = (
 				3E8B3EC0257DF04F009413B2 /* ViewController.swift in Sources */,
 				3E8B3EBC257DF04F009413B2 /* AppDelegate.swift in Sources */,
+				3E653C1D2581E94E00474CBC /* NewFile.swift in Sources */,
 				3E8B3EBE257DF04F009413B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
