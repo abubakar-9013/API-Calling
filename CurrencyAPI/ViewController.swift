@@ -148,7 +148,6 @@ class ViewController: UIViewController {
     }
     
     
-    
     func supportedCountries(completion: @escaping([String: SupportedCountries]) -> ()) {
         let finalEndPoint = baseEndPoint + "/symbols"
         let url = URL(string: "\(finalEndPoint)")!
